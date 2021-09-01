@@ -1,0 +1,18 @@
+﻿@model SimpleMVCCalculator.Models.Calculator
+@{
+    ViewData["Title"] = "MVC Calculator";
+}
+<form asp-action="Index">
+    <div class="text-center">
+        <h1 class="display-4">Calculator</h1>
+        <p> <input type="number" class="text-center" asp-for="value1" /> </p>
+        <p> <input type="number" class="text-center" asp-for="value2" /> </p>
+        <p> <input type="submit" value="+" asp-for="calculate" />
+        <input type="submit" value="-" asp-for="calculate" />
+        <input type="submit" value="x" asp-for="calculate" />
+        <input type="submit" value="÷" asp-for="calculate" /> </p>
+        <p> <input type="text" class="text-center" asp-for="@ViewData["Notification"]" /> </p>
+        <input type="text" class="text-center" asp-for="@ViewData["Result"]" /> </p>
+    </div>
+</form>
+
