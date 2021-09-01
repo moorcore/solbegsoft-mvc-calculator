@@ -13,4 +13,5 @@
 * The application contains 2 classes.
 * The main logic is implemented in class Program.
 * All operations are implemented in class Calculator.
-* The application is able to work with 2 numbers. Available operations: + - * /
+* The application is able to work with 2 numbers. 
+* Available operations: + - * /
