@@ -6,7 +6,7 @@
      Important notion: the application accepts only this format so far.
 * Press the "enter" button.
 * Get the result.
-* Add an operator if you want to continue calculating. 
+* Add an operator and another number if you want to continue calculating. 
 
 
 # App architecture
